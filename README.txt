@@ -38,3 +38,11 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+
+		The MVP's for the Portfolio on Monday will be:
+
+		Contact section
+		LinkedIn, GitHub, and Email
+		Link to Resume
