@@ -2733,6 +2733,11 @@ input, select, textarea {
 			width: 350px;
 			height: 350px;
 			object-fit: cover;
+			border: 3px transparent solid;
+		}
+
+		.project-image > img:hover{
+			border-color: rgba(238, 78, 86, 0.815);
 		}
 
 		.project-grid{
@@ -2766,7 +2771,7 @@ input, select, textarea {
 		}
 
 		.contact-links > a > img:hover{
-			border-color: rgba(25, 25, 26, 0.815);
+			border-color: rgba(238, 78, 86, 0.815);
 		}
 
 		.contact-header{
