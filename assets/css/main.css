@@ -2301,6 +2301,7 @@ input, select, textarea {
 
 	@media screen and (min-width: 961px) and (max-width: 1620px) {
 
+
 		/* Main */
 
 			#main > section {
@@ -2548,6 +2549,7 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
+
 		/* Footer */
 
 			#footer {
@@ -2635,34 +2637,6 @@ input, select, textarea {
 				}
 
 	}
-
-	.changebox {
-		display: inline-block;
-		color: #ffffff;
-		position: relative;
-		white-space: nowrap;
-		top: 0;
-		left: 0;
-		animation: move 10s;
-		animation-iteration-count: infinite;
-		animation-delay: 1s;
-		-webkit-animation: move 10s;
-		-webkit-animation-iteration-count: infinite;
-		-webkit-animation-delay: 1s;
-	}
-
-	.title-box{
-		overflow: hidden;
-		position: relative;
-		height: 50px;
-		font-weight: bold;
-	}
-
-	@keyframes move {
-		0%  { top: 0px; }
-		30% { top: -50px; }
-		60% { top: -100px; }
-		}
 
 		.header-title{
 			display: flex;
@@ -2786,4 +2760,58 @@ input, select, textarea {
 
 		.project-desc > p{
 			width: 350px;
+		}
+
+		.scroller {
+			display: flex;
+			justify-content: center;
+			height: 1.2em;
+			line-height: 1.2em;
+			position: relative;
+			overflow: hidden;
+			width: 10em;
+		}
+		.scroller > span {
+			position: absolute;
+			top: 0;
+			animation: slide 25s infinite;
+			font-weight: bold;
+		}
+		@keyframes slide {
+			0% {
+				top: 0;
+			}
+			10% {
+				top: -1.2em;
+			}
+			20% {
+				top: -2.4em;
+			}
+			30% {
+				top: -3.6em;
+			}
+			40% {
+				top: -4.8em;
+			}
+			50% {
+				top: -6em;
+			}
+			60% {
+				top: -7.2em;
+			}
+			70% {
+				top: -8.4em;
+			}
+			80% {
+				top: -9.6em;
+			}
+			90% {
+				top: -10.8em;
+			}
+			99%{
+				top: -12em;
+			}
+			100% {
+				top: auto;
+			}
 		}
